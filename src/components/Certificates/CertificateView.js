@@ -3,10 +3,10 @@ import { useParams, Link } from 'react-router-dom';
 import { certificate1, certificate2, certificate3, certificate4, certificate5, certificate6, certificate7, certificate8, certificate9, certificate10, certificate11,certificate12,certificate13,certificate14, certificate15 } from "../../assets/index";
 
 const certificateMap = {
-  1: { src: certificate6, title: "Gemini Hackathon", des: "Completed comprehensive web development course covering HTML, CSS, JavaScript, and React." },
+  1: { src: certificate6, title: "AI Genesis Hackathon", des: "Made a project named SupplyShield 2.0-Smart Risk Detection which is AI powered shipement risk intelligence using streamlit." },
   2: { src: certificate9, title: "Leetcode 50 Day", des: "Completed advanced machine learning specialization including supervised and unsupervised learning techniques." },
   3: { src: certificate3, title: "MultiModal AI Hackathon", des: "Achieved certification in cloud computing, covering major platforms and deployment strategies." },
-  4: { src: certificate4, title: "CS50X Puzzle", des: "Completed comprehensive web development course covering HTML, CSS, JavaScript, and React." },
+  4: { src: certificate4, title: "CS50X Puzzle", des: "Solved 9/9 puzzles in CS50X Puzzle Day 2025 and got certificate From Cambridge." },
   5: { src: certificate5, title: "CS50 Python", des: "Completed advanced machine learning specialization including supervised and unsupervised learning techniques." },
   6: { src: certificate1, title: "GEN AI Training", des: "Achieved certification in cloud computing, covering major platforms and deployment strategies." },
   7: { src: certificate7, title: "Internship", des: "Completed comprehensive web development course covering HTML, CSS, JavaScript, and React." },

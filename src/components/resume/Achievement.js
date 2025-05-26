@@ -15,23 +15,29 @@ const Achievement = () => {
           <h2 className="text-3xl md:text-4xl font-bold">Achievement</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <ResumeCard
+            title="CS50x Puzzle Day Winner'25"
+            subTitle="Solved 9/9 Puzzles"
+            result="CS50x Puzzle Day"
+            des="Solved 9/9 Puzzles in CS50x Puzzle Day @ Harvard University with my talented team @geniusminds"
+          />
           <ResumeCard
             title="LeetCode Mastery"
-            subTitle="Completed 50 Coding Challenges to Hone Problem-Solving Skills"
+            subTitle="Coding Challenges to Hone Problem-Solving Skills"
             result="Leetcode"
-            des="Successfully completed 50 LeetCode coding challenges, enhancing problem-solving skills and mastering algorithmic concepts."
+            des="Doing daily LeetCode coding, enhancing problem-solving skills and mastering algorithmic concepts."
           />
           <ResumeCard
             title="Hackathon Excellence"
             subTitle="Recognized for Outstanding Performance in LabLabAI Hackathons"
             result="Heckathons"
-            des="Emerged as a top participant in multiple hackathons hosted by LabLabAI, demonstrating creativity, teamwork, and technical proficiency in developing innovative solutions within tight time constraints."
+            des="Emerged as a  participant in  hackathons hosted by LabLabAI, demonstrating creativity, teamwork, and technical proficiency in developing innovative solutions within tight time constraints."
           />
           <ResumeCard
             title="Academic Excellence"
-            subTitle="Graduated with Outstanding 94% Achievement in University Education"
+            subTitle="Graduated with Outstanding 91% Achievement in University Education"
             result="Education"
-            des="Accomplished an impressive academic goal by graduating with an outstanding 94% score, showcasing commitment and excellence in university studies"
+            des="Accomplished an impressive academic goal by graduating with an outstanding 91% score, showcasing commitment and excellence in university studies"
           />
         </div>
       </div>

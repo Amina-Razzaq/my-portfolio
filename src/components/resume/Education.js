@@ -12,27 +12,33 @@ const Education = () => {
       {/* part one */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2008 - 2024</p>
+          <p className="text-sm text-designColor tracking-[4px]">2007 - 2023</p>
           <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="BS in Computer Science"
-            subTitle="University of Management & Technology (2020 - 2024)"
-            result="3.55/4"
-            des="In my Bachelor degree in Computer Science, I sharpened programming skills and explored database management and software engineering. Hands-on projects provided practical experience in building software solutions and grasping complex algorithms."
+            title="Master of Science"
+            subTitle="Government college women uiniversity faisalabad (2022 - 2024)"
+            result="3.63/4"
+            des="In my degree during master, I sharpened programming skills and explored database management. Hands-on projects provided practical experience in building software solutions and grasping complex algorithms."
           />
           <ResumeCard
-            title="FSC - Non-Medical"
-            subTitle="Punjab College Pattoki (2018 - 2020)"
-            result="74%"
-            des=" I specialized in mathematics, delving into advanced topics like calculus, algebra, and statistics, developing analytical and problem-solving skills."
+            title="Bachelor of Science"
+            subTitle="Punjab University,Lahore (2019 - 2021)"
+            result="A Grade"
+            des=" I specialized in my subjects , delving into advanced topics like developing analytical and problem-solving skills."
+          />
+          <ResumeCard
+            title="FSC -pre-Medical"
+            subTitle="Punjab College Faisalabad (2015 - 2017)"
+            result="951/1100"
+            des=" I pursued my study with dedication and full focus with practical and got A+ grade"
           />
           <ResumeCard
             title="Secondary School Education"
-            subTitle="Deen Public High School (2014 - 2017)"
-            result="80%"
-            des="During my school education, I focused on computer fundamentals, gaining a strong understanding of programming concepts and basic software applications. "
+            subTitle="Punjab science School (2013 - 2015)"
+            result="924/1100"
+            des="During my school education, I focused on basic fundamentals, gaining a strong understanding of  concepts and basic mathematics. "
           />
         </div>
       </div>

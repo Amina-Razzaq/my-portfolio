@@ -13,18 +13,18 @@
 //             alt="logo"
 //             className=" w-10 h-10 rounded-full border-[1px] border-gray-700"
 //           />
-//           <span className=" text-gray-500 font-bold">INBIO</span>
+//           <span className=" text-gray-500 font-bold">AMNES</span>
 //         </div>
 //         <div className="flex gap-3">
           
-//           <Link to="https://github.com/zeshig01" target="_blank">
+//           <Link to="https://github.com/Amina-Razzaq" target="_blank">
 //             {" "}
 //             <span className="bannerIcon">
 //               <FaGithub />
 //             </span>
 //           </Link>
 //           <Link
-//             to="https://www.linkedin.com/in/muhammad-zeeshan-ashraf-a3b99a30a"
+//             to="https://www.linkedin.com/in/amina-razzaq-65960429b/"
 //             target="_blank"
 //           >
 //             {" "}
@@ -155,6 +155,7 @@
 
 import React, { useRef, useState } from "react";
 import { FaLinkedinIn, FaDiscord, FaGithub, FaComment } from "react-icons/fa";
+import { BsCodeSlash } from "react-icons/bs";
 import { logo } from "../../assets/index";
 import { Link } from "react-router-dom";
 import Chatbot from "./Chatbot";
@@ -181,20 +182,34 @@ const Footer = () => {
             alt="logo"
             className="w-10 h-10 rounded-full border-[1px] border-gray-700"
           />
-          <span className="text-gray-500 font-bold">INBIO</span>
+          <span className="text-gray-500 font-bold">AMNES</span>
         </div>
         <div className="flex gap-3">
-          <Link to="https://github.com/zeshig01" target="_blank">
+        <Link
+            to="https://discord.com/channels/@me"
+            target="_blank"
+          >
+            {" "}
+            <span className="bannerIcon">
+              <FaDiscord />
+            </span>
+          </Link>
+          <Link to="https://github.com/Amina-Razzaq" target="_blank">
             <span className="bannerIcon">
               <FaGithub />
             </span>
           </Link>
           <Link
-            to="https://www.linkedin.com/in/muhammad-zeeshan-ashraf-a3b99a30a"
+            to="https://www.linkedin.com/in/amina-razzaq-65960429b/"
             target="_blank"
           >
             <span className="bannerIcon">
               <FaLinkedinIn />
+            </span>
+          </Link>
+          <Link to="https://leetcode.com/u/Amina_Razzaq/" target="_blank">
+            <span className="bannerIcon">
+              <BsCodeSlash />
             </span>
           </Link>
         </div>

@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { BsCodeSlash } from "react-icons/bs";
+import { FaLinkedinIn, FaGithub,} from "react-icons/fa";
 import { Link as ScrollLink } from "react-scroll";
 import { Link as RouterLink } from "react-router-dom";
 import { logo } from "../../assets/index";
@@ -61,7 +62,7 @@ const Navbar = () => {
           alt="logo"
           className="w-10 h-10 object-contain rounded-full border-[1px] border-[var(--border-color)]"
         />
-        <span className="text-[var(--text-secondary)] font-bold">Zeshi</span>
+        <span className="text-[var(--text-secondary)] font-bold">AMNES</span>
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
@@ -113,7 +114,7 @@ const Navbar = () => {
                     alt="logo"
                     className="w-10 h-10 rounded-full border-[1px] border-[var(--border-color)]"
                   />
-                  <span className="text-[var(--text-secondary)] font-bold">INBIO</span>
+                  <span className="text-[var(--text-secondary)] font-bold">AMNES</span>
                 </div>
               </div>
               <ul className="flex flex-col gap-4">
@@ -144,18 +145,27 @@ const Navbar = () => {
               <div className="flex flex-col gap-4">
                 <h2 className="text-base uppercase font-titleFont mb-4 text-[var(--text-primary)]">Find me in</h2>
                 <div className="flex gap-4">
-                  <a href="https://github.com/zeshig01" target="_blank" rel="noreferrer">
+                  <a href="https://github.com/Amina-Razzaq" target="_blank" rel="noreferrer">
                     <span className="bannerIcon">
                       <FaGithub />
                     </span>
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/muhammad-zeeshan-ashraf-a3b99a30a"
+                    href="https://www.linkedin.com/in/amina-razzaq-65960429b/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <span className="bannerIcon">
                       <FaLinkedinIn />
+                    </span>
+                  </a>
+                   <a
+                    href="https://leetcode.com/u/Amina_Razzaq/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span className="bannerIcon">
+                      <BsCodeSlash />
                     </span>
                   </a>
                 </div>

@@ -25,7 +25,7 @@ const Projects = () => {
           git='https://github.com/Zeshig01/SurgicalWeb'
         />
 
-        <ProjectsCard
+        {/* <ProjectsCard
           title="Admin Panal"
           des="I created a comprehensive admin panel for managing user information, attendance tracking, and detailed salary reports. This system ensures efficient employee data handling and payroll management."
           src={projectTwo}
@@ -60,7 +60,7 @@ const Projects = () => {
           src={projectSix}
           link= 'https://voca-mind.vercel.app/'
           git='https://github.com/Zeshig01/Eziline'
-        />
+        /> */}
       </div>
     </section>
   );
