@@ -62,7 +62,7 @@ const LeftBanner = () => {
                 <FaLinkedinIn />
               </span>
             </a>
-            <a href="https://leetcode.com/mahrshabbir768/" target="_blank" rel="noopener noreferrer">
+            <a href="https://leetcode.com/u/Amina_Razzaq/" target="_blank" rel="noopener noreferrer">
               <span className="bannerIcon">
                 <BsCodeSlash />
               </span>

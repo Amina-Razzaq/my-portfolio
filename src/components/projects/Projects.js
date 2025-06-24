@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree, projectFour,projectFive,projectSix } from "../../assets/index";
+import { projectOne, projectTwo, projectThree, } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -18,49 +18,29 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         
         <ProjectsCard
-          title="CryptoVerse Web"
-          des="I created the CryptoVerse website to provide a sleek, responsive platform for showcasing crypto-related services and updates. It features modern UI/UX, real-time data integration, and a seamless user experience tailored for the crypto community."
+          title="Virtual Voice Assistant"
+          des="I created the Virtual Voice Assistant. A smart voice assistant built with React that opens websites through spoken commands and performs Google searches when needed. Seamlessly blends predefined actions with flexible voice-based browsing for a hands-free experience."
           src={projectOne}
-          link= 'https://cryptoverse-ai.com/'
-          git='https://github.com/Zeshig01/SurgicalWeb'
+          link= 'https://virtual-voice-assistant-six.vercel.app/'
+          git='https://github.com/Amina-Razzaq/Virtual-Voice-Assistant'
         />
 
-        {/* <ProjectsCard
-          title="Admin Panal"
-          des="I created a comprehensive admin panel for managing user information, attendance tracking, and detailed salary reports. This system ensures efficient employee data handling and payroll management."
+         <ProjectsCard
+          title="3D-animated-portfolio-website"
+          des="I created a 3D-animated-portfolio-website. A visually dynamic 3D animated portfolio website showcasing my skills and projects with interactive motion and modern design. Built with React and Three.js, it delivers an immersive experience that highlights creativity and frontend expertise."
           src={projectTwo}
-          link= 'https://admin-panal-nine.vercel.app/'
-          git='https://github.com/Zeshig01/Admin_Panal'
+          link= 'https://3-d-animated-portfolio-website.vercel.app/'
+          git='https://github.com/Amina-Razzaq/3D-animated-portfolio-Website'
         />
 
         <ProjectsCard
-          title="HealthPulse"
-          des=" I developed a professional website for the company to enhance its online presence and showcase its services. The site is user-friendly, responsive, and designed to attract and engage potential clients."
+          title="BulkSms-website"
+          des=" I developed a  website using Html CSS  to form a layout and showcase its services. The site is user-friendly, responsive, and designed to attract and engage potential clients."
           src={projectThree}
-          link= 'https://zocean.vercel.app/'
-          git='https://github.com/Zeshig01/newone'
+          link= 'https://myntra-clone-w3n8.vercel.app/'
+          git='https://github.com/Amina-Razzaq/BulkSms-website'
         />
-        <ProjectsCard
-          title="OrbitX"
-          des=" In the NASA Space Hackathon, we developed an innovative project focused on utilizing AI-driven models to analyze space data for enhanced exploration and navigation. Our approach aims to optimize resource management and decision-making for future space missions."
-          src={projectFour}
-          link= 'https://orbit-x.vercel.app/'
-          git='https://github.com/Zeshig01/Eziline'
-        />
-        <ProjectsCard
-          title="SiteBuilder"
-          des="It leverages AI to generate and display code snippets instantly using the Together AI LLaMA API and HELICONE API. The application also includes a sandbox feature that allows users to easily transfer code into a live editor, saving valuable time during development."
-          src={projectFive}
-          link= 'https://zeshi-the-brand.vercel.app/'
-          git='https://github.com/Zeshig01/Eziline'
-        />
-        <ProjectsCard
-          title="Intervuo"
-          des="This is an AI-powered interviewer bot developed by Team Pathfinder to revolutionize the recruitment process. Our bot conducts interviews autonomously, providing a consistent and efficient way to assess candidates without human intervention."
-          src={projectSix}
-          link= 'https://voca-mind.vercel.app/'
-          git='https://github.com/Zeshig01/Eziline'
-        /> */}
+        
       </div>
     </section>
   );
